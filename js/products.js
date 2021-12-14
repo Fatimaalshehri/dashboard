@@ -66,29 +66,43 @@ const products = [
 document.getElementById("product").innerHTML = products.map(element =>
 
 
-  `
+
+`
+
+<div class="container">
+
 <div class="row g-0">
 <div class="col-md-4">
-    <img src="${element.image}" class="img-fluid rounded-start" alt="...">
+<img src="${element.image}" class="img-fluid rounded-start" alt="..." style="width:15rem">
 </div>
 
 <div class="col-md-6">
-    <div class="card-body">
-        <h5 class="card-title">${element.name}</h5>
-        <p class="card-text">${element.description}</p>
-      
+<div class="card-body">
+
+        <div class="col-md-9">
+        <h5 class="card-title text-start">${element.name}</h5>
         </div>
-    </div>
-  
+
+        <div class="col-md-12">
+        <p class="card-text text-start">${element.description}</p>
+        </div>
+
+</div>
+</div>
+
+
     <div class="col-md-2">
     <h3 class="card-text">${element.price}</h3>
     <p class="card-text text-success ">${element.status}</p>
-        <a href="#" class="btn text-white" style="background-color: rgb(147, 181, 198) ;">Go somewhere</a>
-        <a href="#" class="btn text-white" style="background-color: rgb(255, 227, 227);">Go somewhere</a>
+    <a href="#" class="btn text-white" style="background-color: rgb(147, 181, 198) ;">Go somewhere</a>
+    <a href="#" class="btn text-white" style="background-color: rgb(255, 227, 227);">Go somewhere</a>
+    </div>
 
 
     </div>
-</div>
+    </div>
+    </div>
+
 `
 );
 
