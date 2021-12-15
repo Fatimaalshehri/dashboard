@@ -69,7 +69,7 @@ document.getElementById("product").innerHTML = products.map(element =>
 
 `
 
-<div class="container">
+<div class="card">
 
 <div class="row g-0">
 <div class="col-md-4">
