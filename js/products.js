@@ -94,8 +94,8 @@ document.getElementById("product").innerHTML = products.map(element =>
     <div class="col-md-2">
     <h3 class="card-text">${element.price}</h3>
     <p class="card-text text-success ">${element.status}</p>
-    <a href="#" class="btn text-white" style="background-color: rgb(147, 181, 198) ;">Go somewhere</a>
-    <a href="#" class="btn text-white" style="background-color: rgb(255, 227, 227);">Go somewhere</a>
+    <a href="#" class="btn text-white" style="background-color: #980F5A ;">Go somewhere</a>
+    <a href="#" class="btn text-white" style="background-color: #000000;">Go somewhere</a>
     </div>
 
 

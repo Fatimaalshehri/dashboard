@@ -1,12 +1,12 @@
 .bg-purple {
   color: white!important;
-  background: linear-gradient(135deg, #93B5C6, rgb(201, 204, 213))!important;
+  background: linear-gradient(135deg, #000000,#000000)!important;
 }
 
 .bg-pink {
-  border-color: #FFE3E3!important;
-  background: linear-gradient(227deg, rgb(228, 216, 220) 0%, rgb(255, 227, 227) 100%)!important;
-  color: white!important;
+  border-color: #ffffff!important;
+  background: linear-gradient(227deg, rgb(87, 5, 48) 0%, rgb(152, 15, 90) 100%)!important;
+  color: rgb(255, 255, 255)!important;
 }
 
 h1{
@@ -19,10 +19,12 @@ h5{
   margin: 30px;
   margin-top: -20px;
 padding: -80px;
+
 }
 
 .col{
   text-align: center;
+
 }
 
 .col .text-muted{
@@ -43,12 +45,13 @@ text-align:start;
 
 .fa-chevron-right {
   margin-left: 9rem;
+  
 }
 
 .barend{
   margin-top: 1rem;
   height: 3rem;
-  background-color: rgb(233, 233, 233);
+  background-color: #000000;
 }
 
 .barend p{
@@ -65,11 +68,15 @@ text-align:start;
 
 
 .card .btn{
-
   margin-top: 1rem;
 }
 
+.navbar-toggler{
+background: #ffffff;
+}
+
 .offcanvas-body{
-  background: linear-gradient(135deg, #93B5C6, rgb(201, 204, 213))!important;
+  background: linear-gradient(135deg, #000000, #000000)!important;
+
 }
 
