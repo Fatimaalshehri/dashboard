@@ -10,7 +10,7 @@
 * [Fontawesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Chartjs](https://www.chartjs.org/)
-*[Datatables](https://datatables.net/)
+* [Datatables](https://datatables.net/)
 * [Tidio](https://www.tidio.com/)
 
 ## Project Prototype:
@@ -26,4 +26,4 @@
 * Use Tidio integrations to add chatbot in dashboard website.
 
 ## The Dashboard Demo
-*You can visit Dashboard website [link here](http://127.0.0.1:5502/#)
+* You can visit Dashboard website [link here](http://127.0.0.1:5502/#)
